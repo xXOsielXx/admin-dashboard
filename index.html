@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Admin Dashboard</title>
+	<script src="https://kit.fontawesome.com/65ca666943.js" crossorigin="anonymous" defer></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<aside id="aside">
+		<a id="dashboard-link" href="#">
+			<i class="mdi mdi-view-dashboard"></i>
+			<h1></h1>
+		</a>
+		<nav>
+			<ul>
+				<li>
+					<a id="home-link" class="nav-link" href="#">
+						<i class="fa-solid fa-house"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="profile-link" class="nav-link" href="#">
+						<i class="fa-solid fa-user"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="messages-link" class="nav-link" href="#">
+						<i class="fa-solid fa-message"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="history-link" class="nav-link" href="#">
+						<i class="fas fa-history"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="tasks-link" class="nav-link" href="#">
+						<i class="fas fa-tasks"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="community-link" class="nav-link" href="#">
+						<i class="fas fa-users"></i>
+						<span></span>
+					</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a id="settings-link" class="nav-link" href="#">
+						<i class="fas fa-cog"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="support-link" class="nav-link" href="#">
+						<i class="fas fa-question-circle"></i>
+						<span></span>
+					</a>
+				</li>
+				<li>
+					<a id="privacy-link" class="nav-link" href="#">
+						<i class="fas fa-user-secret"></i>
+						<span></span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</aside>
+	<main id="main">
+		<header id="header">
+			<div>
+				<img class="photo" src="img/photo.png" alt="Admin photo">
+				<div id="greeting">
+					<span>
+						Welcome back, <br>
+						<span class="admin-name">Osiel Hernández (@osez)</span>
+					</span>
+				</div>
+			</div>
+			<div>
+				<button id="toggle"><i id="toggle-icon" class="fa-solid fa-moon"></i></button>
+				<button id="notifications"><i class="fa-solid fa-bell"></i></button>
+				<img class="photo minor" src="img/photo.png" alt="Admin Photo">
+				<span class="admin-name minor">Osiel Hernández</span>
+			</div>
+		</header>
+		<div id="container">
+			<section id="projects">
+				<h2>Projects</h2>
+				<div>
+					<article class="card left-shadow">
+						<h3>Landing Page</h3>
+						<img class="left-shadow" src="img/landing-page.png" alt="Landing page">
+						<p>Bootcamp landing page. Made for The Odin Project.</p>
+						<a href="https://xxosielxx.github.io/landing-page">Visit the website</a>
+					</article>
+					<article class="card left-shadow">
+						<h3>Etch a Sketch</h3>
+						<img class="left-shadow" src="img/etch-a-sketch.png" alt="Etch a Sketch web page">
+						<p>Etch a Sketch made with javascript with their original functionality. Made for The Odin Project.</p>
+						<a href="https://xxosielxx.github.io/etch-a-sketch">Visit the website</a>
+					</article>
+					<article class="card left-shadow">
+						<h3>Rock, Paper, Scissors</h3>
+						<img class="left-shadow" src="img/rock-paper-scissors.png" alt="Rock, paper, scissors web page">
+						<p>Classic rock, paper, scissors game made with javascript. Made for The Odin Project.</p>
+						<a href="https://xxosielxx.github.io/rock-paper-scissors">Visit the website</a>
+					</article>
+					<article class="card left-shadow">
+						<h3>Odin Recipes</h3>
+						<img class="left-shadow" src="img/odin-recipes.png" alt="Odin recipes web page">
+						<p>Cuban recipes web page. First project I made for The Odin Project.</p>
+						<a href="https://xxosielxx.github.io/odin-recipes">Visit the website</a>
+					</article>
+				</div>
+			</section>
+			<section id="announcements">
+				<h2>Announcements</h2>
+				<ul id="announcements-list" class="left-shadow">
+					<li>
+						<h3>Site maintenance</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellendus cumque soluta. Labore, veniam explicabo, assumenda quae esse aut tempora!</p>
+					</li>
+					<li>
+						<h3>Added new fonts</h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Quas ipsa veritatis quaerat, nihil corporis, culpa atque aperiam, repudiandae ut quod quos numquam, et incidunt beatae porro excepturi maiores error eius.</p>
+					</li>
+					<li>
+						<h3>Updated privacy policy</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, facilis.</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
