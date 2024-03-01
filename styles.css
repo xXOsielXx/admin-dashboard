@@ -39,8 +39,8 @@ body {
 	-webkit-text-stroke: 2px #eeb241;
 }
 
-#toggle-icon:hover {
-	transform: rotate(360deg) scale(1.5);
+#toggle-icon:active {
+	transform: rotate(360deg);
 }
 
 /* Navigation bar */
@@ -266,6 +266,10 @@ h2 {
 }
 
 @media only screen and (min-width: 800px) {
+	#toggle-icon:hover {
+		transform: rotate(360deg) scale(1.5);
+	}
+	
 	#container {
 		display: grid;
 		grid-template-columns: 3fr 1fr;
